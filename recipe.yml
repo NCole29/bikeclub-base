@@ -11,7 +11,6 @@ recipes:
   - core/recipes/user_picture
 install:
   # Core modules (core recipes install block, image, user, views, etc.)
-  - claro
   - config
   - contextual
   - datetime
@@ -49,7 +48,6 @@ install:
   - webform_views
 config:
   import:
-    claro: '*'
     help:
       - search.page.help_search
     image:
@@ -73,31 +71,6 @@ config:
       - webform.webform.template_subscribe
       - webform.webform.template_user_profile
   actions:
-    system.theme:
-      simple_config_update:
-        admin: claro
-    block.block.claro_page_title:
-      simple_config_update:
-        region: header
-    block.block.claro_branding:
-      simple_config_update:
-        status: false
-    block.block.claro_tools:
-      simple_config_update:
-        status: false
-    block.block.claro_admin:
-      simple_config_update:
-        status: false
-    block.block.claro_primary_local_tasks:
-      simple_config_update:
-        region: header
-        weight: -10
-    block.block.claro_secondary_local_tasks:
-      simple_config_update:
-        region: pre_content
-    block.block.claro_local_tasks:
-      simple_config_update:
-        status: false
     node.settings:
       simple_config_update:
         use_admin_theme: true
