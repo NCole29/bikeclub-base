@@ -6,8 +6,6 @@ recipes:
   - core/recipes/core_recommended_maintenance
   - core/recipes/core_recommended_performance
   - core/recipes/basic_block_type
-  - core/recipes/image_media_type
-  - core/recipes/document_media_type
   - core/recipes/user_picture
 install:
   # Core modules (core recipes install block, image, user, views, etc.)
@@ -16,8 +14,8 @@ install:
   - datetime
   - help
   - history
+  - image
   - link
-  - media
   - menu_link_content
   - node
   - options
