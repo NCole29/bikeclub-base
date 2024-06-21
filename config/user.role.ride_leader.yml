@@ -8,9 +8,5 @@ permissions:
   - 'access content overview'
   - 'access coffee'
   - 'access toolbar'
-  - 'create media'
-  - 'update media'
-  - 'view own unpublished media'
   - 'view the administration theme'
   - 'view webform submissions any node'
-  

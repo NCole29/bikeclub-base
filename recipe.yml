@@ -75,12 +75,3 @@ config:
     user.settings:
       simple_config_update:
         register: admin_only
-    # Assign Drupal permissions for roles created by the Minimal profile.
-    user.role.anonymous:
-      grantPermissions:
-        - 'view media'
-    user.role.authenticated:
-      grantPermissions:
-        - 'change own username'
-        - 'delete own files'
-        - 'view media'
