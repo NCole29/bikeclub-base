@@ -1,0 +1,29 @@
+langcode: en
+status: true
+id: editor
+label: 'Content editor'
+weight: 7
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access block library'
+  - 'access coffee'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access help pages'
+  - 'access toolbar'
+  - 'access any webform configuration'
+  - 'access webform help'
+  - 'access webform overview'
+  - 'administer blocks'
+  - 'create basic block content'
+  - 'create webform'
+  - 'delete any basic block content'
+  - 'delete any webform'
+  - 'delete webform submissions any node'
+  - 'edit any basic block content'
+  - 'edit any webform'
+  - 'view any basic block content history'
+  - 'view any webform submission'
+  - 'view the administration theme'
+  - 'view webform submissions any node'

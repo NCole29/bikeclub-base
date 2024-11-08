@@ -1,0 +1,12 @@
+langcode: en
+status: true
+id: ride_leader
+label: 'Ride leader'
+weight: 3
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access coffee'
+  - 'access toolbar'
+  - 'view the administration theme'
+  - 'view webform submissions any node'
