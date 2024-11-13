@@ -1,0 +1,61 @@
+name: 'Bike Club - Base Install'
+description: 'Configure a base site as a first step in launching the Bike Club website.'
+type: 'Site'
+recipes:
+  # Core recipes
+  - core/recipes/core_recommended_maintenance
+  - core/recipes/core_recommended_performance
+  - core/recipes/basic_block_type
+  - core/recipes/user_picture
+install:
+  # Core modules (core recipes install block, image, user, views, etc.)
+  - config
+  - contextual
+  - datetime
+  - help
+  - history
+  - image
+  - link
+  - menu_link_content
+  - node
+  - options
+  - search
+  - shortcut
+  - taxonomy
+  - toolbar
+  - field_ui
+  - menu_ui
+  - views_ui
+  # Contrib modules
+  - admin_toolbar
+  - admin_toolbar_links_access_filter
+  - admin_toolbar_tools
+  - coffee
+  - config_ignore
+  - mail_login
+  - menu_admin_per_menu
+  - menu_block
+  - pathauto
+  - redirect
+config:
+  import:
+    help:
+      - search.page.help_search
+    image:
+      - image.style.thumbnail
+    user:
+      - core.entity_view_mode.user.compact
+      - search.page.user_search
+      - views.view.user_admin_people
+      - views.view.who_s_new
+      - views.view.who_s_online
+    taxonomy: '*'
+    shortcut:
+      - shortcut.set.default
+  actions:
+    node.settings:
+      simple_config_update:
+        use_admin_theme: true
+    user.settings:
+      simple_config_update:
+        register: admin_only

@@ -1,0 +1,24 @@
+{
+    "name": "bikeclub/bikeclub-base",
+    "description": "Configure a base site as a first step in launching the Bike Club website.",
+    "keywords": ["recipe", "bikeclub"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Nancy Cole",
+            "homepage": "https://bikeclubsites.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/admin_toolbar": ">=3.0",
+        "drupal/coffee": ">=1.0",
+        "drupal/config_ignore": ">=3.0",
+        "drupal/mail_login": ">=3.0",
+        "drupal/menu_admin_per_menu": ">=1.0",
+        "drupal/menu_block": ">=1.0",
+        "drupal/pathauto": ">=1.2",
+        "drupal/redirect": ">=1.9",
+    }
+}
