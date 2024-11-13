@@ -19,6 +19,6 @@
         "drupal/menu_admin_per_menu": ">=1.0",
         "drupal/menu_block": ">=1.0",
         "drupal/pathauto": ">=1.2",
-        "drupal/redirect": ">=1.9",
+        "drupal/redirect": ">=1.9"
     }
 }
